@@ -1,7 +1,7 @@
 import './App.css';
 import Screen from './Lesson5_redux/component/Screen.js';
-import store from './Lesson5_redux/redux/Store.js';
-import { Provider } from 'react';
+import store from './Lesson5_redux/redux/mystore.js';
+import { Provider } from 'react-redux';
 import Nav from './web/components/nav.js';
 import { BrowserRouter } from 'react-router-dom';
 

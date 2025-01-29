@@ -11,8 +11,8 @@ export default function Screen()
         <>
         <ShowTask>
         </ShowTask>
-        {taskList.map(t,index=>(
-        <Task id={index} value={t.value} ></Task>))}
+        {taskList.map((t,index)=>(
+        <Task value={t.value} id={index} />))}
         </>
     )
 }
