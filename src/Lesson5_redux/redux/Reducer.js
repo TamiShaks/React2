@@ -30,7 +30,7 @@ import { ADDITION, REMOVMET } from "./ActionTyps";
 
 const initialState = {
     todos: [],
-    counter: 0
+ 
 };
 
 export const todosReducer = (state = initialState, action) => {
